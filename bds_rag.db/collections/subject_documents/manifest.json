@@ -1,0 +1,31 @@
+{
+  "active_wal_number": 8,
+  "current_seq": 12060,
+  "index_specs": {
+    "vector": {
+      "build_params": {},
+      "field_name": "vector",
+      "index_type": "AUTOINDEX",
+      "metric_type": "COSINE",
+      "search_params": {}
+    }
+  },
+  "manifest_format_version": 2,
+  "partitions": {
+    "_default": {
+      "data_files": [
+        "data/data_000001_004949.parquet",
+        "data/data_004950_004961.parquet",
+        "data/data_004963_004974.parquet",
+        "data/data_004975_005061.parquet",
+        "data/data_005062_006783.parquet",
+        "data/data_006784_012060.parquet"
+      ],
+      "delta_files": [
+        "delta/delta_004962_004962.parquet"
+      ]
+    }
+  },
+  "schema_version": 1,
+  "version": 8
+}
